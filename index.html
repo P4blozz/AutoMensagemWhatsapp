@@ -1,0 +1,34 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra Simulada</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <img src="https://static.cdnlive.com.br/uploads/707/unidade/17213032177032_zoom.jpg" alt="Produto Exemplo" class="product-image">
+    <h1 class="product-name">Produto Exemplo</h1>
+    <p class="product-description">Este é um produto de exemplo para testar a funcionalidade de compra simulada. Ideal para testar integrações.</p>
+    <p class="product-price">R$ 199,99</p>
+
+    <!-- Opção de seleção de tamanho -->
+    <select class="size-select" id="sizeSelect">
+        <option value="P">P</option>
+        <option value="M">M</option>
+        <option value="G">G</option>
+        <option value="GG">GG</option>
+    </select>
+
+    <button class="buy-button" onclick="sendMessage()">Comprar</button>
+</div>
+
+<!-- Link para o arquivo JavaScript externo -->
+<script src="script.js"></script>
+
+</body>
+</html>
